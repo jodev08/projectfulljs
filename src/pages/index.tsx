@@ -1,4 +1,5 @@
 import { Seo } from "@/ui/components/seo";
+import { Typo } from "@/ui/design-system/typo/typo";
 
 
 
@@ -8,7 +9,9 @@ export default function Home() {
     <>
 
       <Seo title="project" description="voici ma desciption du project" />
-      <h1>salut</h1>
+      <Typo>
+        
+      </Typo>
 
     
     
