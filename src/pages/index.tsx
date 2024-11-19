@@ -1,4 +1,5 @@
-import Head from "next/head";
+import { Seo } from "@/ui/components/seo";
+
 
 
 
@@ -6,19 +7,8 @@ export default function Home() {
   return (
     <>
 
-    <Head>
-       <title> project javascript</title>
-
-       <meta name="description" content="Description..." />
-
-       <meta 
-          name="viewport"
-          content="width=device-width, initial-cale=1"
-      
-       />
-       <link rel="icon" href="/favicon.ico" />
-       qdfgdrfqeg
-    </Head>
+      <Seo title="project" description="voici ma desciption du project" />
+      <h1>salut</h1>
 
     
     
@@ -27,3 +17,4 @@ export default function Home() {
     </>
   )
 }
+
