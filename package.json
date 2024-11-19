@@ -4,14 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "engines": {
-    "node" : ">=18.18.0"
+    "node": ">=18.18.0"
   },
   "dependencies": {
+    "firebase": "^11.0.2",
     "next": "15.0.2",
     "react": "19.0.0-rc-02c0e824-20241028",
     "react-dom": "19.0.0-rc-02c0e824-20241028"
@@ -32,6 +33,3 @@
     "typescript-eslint": "^8.12.2"
   }
 }
-
-
-
